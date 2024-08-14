@@ -124,7 +124,6 @@ header{
     font-weight: 400;
     font-family: var(--font-family);
     border: none;
- 
     cursor: pointer;
 }
 
@@ -341,6 +340,7 @@ header{
 		height: 50px;
 		border-radius: 19px;
 		font-size: 14px;
+		margin: 1.5%;
     }
 
 	.title{
