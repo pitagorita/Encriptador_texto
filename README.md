@@ -1,6 +1,6 @@
 # Encriptador_texto
 Prueba de HTML, CSS y JavaScript creando un encriptador de texto. Curso Alura
-
+<img src="./img/01.webp">
 
 <h2>Presentación</h2>
 
