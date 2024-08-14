@@ -11,5 +11,7 @@ El encriptador de texto es una pagina web capaz de encriptar y desencriptar cual
 Su funcion es muy sencilla:
 1. Ingresa el texto que desees encriptar en el campo de texto (recuerda no ingresar letras mayusculas ni acentos).
 2. Presiona el boton "Encriptar" y listo! A parece el texto encriptado.
+<img scr="./img/02.webp">
 3. Si quieres copiar el texto encriptado, solo presiona el boton "Copiar" y ya lo tendras listo para lo que tu quieras.
+<img scr="./img/04.webp">
 4. Para desencriptar, solo ingresa el texto encriptado y presiona el boton "Desencriptar" y ya esta listo, tu mensaje ya esta desencriptado.
