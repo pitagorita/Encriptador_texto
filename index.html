@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+    <body>
+        <header>
+            <div class="contenedor_header">
+                <div class="header">
+            <img class="logo" src="./img/alura.svg" alt="logo Alura">
+                </div>
+            </div>    
+        </header> 
+<main>
+    <article class="contenedor">
+        <section class="contenedor_caja_texto_izq">
+            <textarea class="caja_texto" id="cajaTexto"
+            placeholder="Ingrese texto aqui" autofocus ></textarea> 
+            <div class="contenedor_botones">
+                <span class="info"> 
+                    <img src="./img/exclamacion.svg" alt="info">
+                        Solo letras minúsculas y sin acentos
+                </span>
+                <div class="botones">
+                    <button id="boton_encriptar" class="boton_encriptar" onclick="btnEncriptar()">
+                    <p class="text">Encriptar</p><span class="effect"></span></button>
+                    <button id="boton_desencriptar" class="boton_desencriptar" onclick="btnDesencriptar()">
+                    <p class="text">Desencriptar</p><span class="effect"></span></button>
+                </div>
+            </div>
+        </section>
+        <section class="seccion2">
+            <img src="./img/muneco.svg" class="muneco" alt="Ningún mensaje fue encontrado. Ingresa el 
+            texto que desees encriptar o desencriptar.">
+                <textarea id="textoFinal" class="textoFinal" placeholder=
+                "Ningún mensaje fue encontrado"></textarea>
+                <p id="textoInfo" class="info">Ingrese texto que desees encriptar 
+                o desencriptar</p>
+            <button id="botonCopiar" class="boton_copiar">
+                <svg viewBox="0 0 512 512" class="svgIcon" height="1em">
+                    <path d="M288 448H64V224h64V160H64c-35.3 0-64 28.7-64 64V448c0 
+                    35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H288v64zm-64-96H448c35.3 
+                    0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224c-35.3 0-64 28.7-64 64V288c0 
+                    35.3 28.7 64 64 64z"></path></svg><p class="text">Copiar</p>
+                    <span class="effect"></span>
+            </button>
+            <div id="customAlert"></div>
+        </section>
+    </article>
+</main>
+<footer class="footer">Desarrolada por pitagorita</footer>
+<script src="./encriptador.js"></script>
+</body>
+</html>
